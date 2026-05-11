@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Day 02 - Spacing & Layout</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+    <section class="min-h-screen flex items-center">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+
+                <!-- LEFT CONTENT -->
+                 <div>
+                    <p class="text-blue-600 font-semibold mb-4">Tailwind CSS Mastery</p>
+                    <h1 class="text-5xl font-bold leading-tight mb-6">Build modern Interfaces Faster with Tailwind CSS</h1>
+                    <p class="text-gray-600 text-lg mb-8">Learn utility-first CSS by building real responsive projects step-by-step.</p>
+
+                    <div class="flex gap-4">
+                        <button class="bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 transition">Get started</button>
+                        <button class="border border-gray-300 px-6 py-3 rounded-xl hover:bg-gray-200 transition">Learn more</button>
+                    </div>
+                 </div>
+
+                 <!-- RIGHT CONTENT -->
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+                         alt="Workspace" class="rounded-2xl shadow-xl"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20">
+        <div class="max-w-6xl mx-auto px-6"> 
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Why learn Tailwind CSS?</h2>
+                <p class="text-gray-600">Build faster, cleaner, and responsive interfaces.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+
+                <!-- CARD 1 -->
+                 <div class="gb-white p-8 rounded-2xl shadow-2xl shadow-md">
+                    <h3 class="text-2xl font-semibold mb-4">Faster Development</h3>
+                    <p class="text-gray-600">Build interfaces directly in HTML without writing tons of CSS.</p>  
+                 </div>
+
+                 <!-- CARD 2 --> 
+                 <div class="gb-white p-8 rounded-2xl shadow-2xl shadow-md">
+                    <h3 class="text-2xl font-semibold mb-4">Responsive Design</h3>
+                    <p class="text-gray-600">Easily create layouts that work perfectly on every screen size.</p>  
+                 </div>
+
+                 <!-- CARD 3 -->
+                 <div class="gb-white p-8 rounded-2xl shadow-2xl shadow-md">
+                    <h3 class="text-2xl font-semibold mb-4">Modern Workflow</h3> 
+                    <p class="text-gray-600">Use utility-first classes to create scalable UI systems.</p>  
+                 </div>
+            </div>
+
+        
+        </div>
+    </section>
+
+</body>
+</html>
